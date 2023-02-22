@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body class="">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Scott Cawthon</h1>
+        <p>And I'm a former game designer</p>
+      </div>
+    </div>
+
+ <div id="accordionNav mx-auto">
+  <div class="accordionPanel">
+    <div
+      class="accordionPanelTab"
+      id="eventsWeekTab"
+      onclick="eventsThisWeek();"
+    >
+      Events This Week
+    </div>
+    <div class="accordionPanelContent" id="eventsWeekContent">
+      <a href="#">
+        <img src="img/thumb-fpcp.jpg" width="180" height="140" />
+        <h3>Mon: Fancy Pants and the Cellphones</h3>
+      </a>
+      <a href="#"><h3>Tue: The Wartimes</h3></a>
+      <a href="#"><h3>Wed: New York On Bikes</h3></a>
+      <a href="#"><h3>Thu: Gerry and the Atrics</h3></a>
+      <a href="#"><h3>Fri: Low Lustre</h3></a>
+    </div>
+  </div>
+  <div class="accordionPanel">
+    <div class="accordionPanelTab" id="comingUpTab"
+      onclick="showComingUp();"
+    >
+      Coming Up
+    </div>
+    <div class="accordionPanelContent" id="comingUpContent">
+      <a href="#" class="eventContent">
+        <img src="img/thumb-woof.jpg" width="180" height="140" />
+        <h3>8/10 Woofing Cookies</h3>
+      </a>
+      <a href="#"><h3>8/12 The Stomps!</h3></a>
+      <a href="#"><h3>8/18 Jimmy and the Lads</h3></a>
+      <a href="#"><h3>8/20 Lady Liberties</h3></a>
+      <a href="#"><h3>8/23 California Wine</h3></a>
+    </div>
+  </div>
+  <div class="accordionPanel">
+    <div
+      class="accordionPanelTab"
+      id="pastEventsTab"
+      onclick="pastEvents();"
+    >
+      Past Events
+    </div>
+    <div class="accordionPanelContent" id="pastEventsContent">
+      <a href="#">
+        <img src="img/thumb-bugs.jpg" width="180" height="140" />
+        <h3>Lightning Bug</h3>
+      </a>
+      <a href="#"><h3>Small Business System</h3></a>
+      <a href="#"><h3>The Clash at Demonhead</h3></a>
+      <a href="#"><h3>Finneas Finnegan</h3></a>
+      <a href="#"><h3>My Flying Car Is Broken</h3></a>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
